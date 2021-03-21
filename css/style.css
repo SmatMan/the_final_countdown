@@ -1,0 +1,51 @@
+@font-face {
+    font-family: LemonMilk;
+    src: url(../fonts/LEMONMILK-Bold.woff);
+}
+
+body {
+    background-color: #2D2D2D;
+}
+
+.countdown {
+    color: #686868;
+    font-family: LemonMilk;
+    font-size: 40px;
+    text-align: center;
+}
+
+.credit {
+    color: #686868;
+    font-family: LemonMilk;
+    font-size: 20px;
+    text-align: center;
+}
+
+.countdown-div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.image-div {
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.credit-div {
+    position: absolute;
+    left: 50%;
+    top: 97%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.nokwok-logo {
+    width: 200px;
+    height: 200px;
+}
